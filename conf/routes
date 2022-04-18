@@ -1,15 +1,19 @@
 # Routes
-# This file defines all application routes (Higher priority routes first)
-# https://www.playframework.com/documentation/latest/ScalaRouting
-# ~~~~
-# An example controller showing a sample home page
-GET     /pessoa                     controllers.PessoaController.listar()
-GET     /pessoaPorId/:id            controllers.PessoaController.consultar(id: Long)
-GET     /pessoaPorNome/:nome        controllers.PessoaController.consultarPorNome(nome: String)
-POST    /pessoa                     controllers.PessoaController.cadastrar()
-POST    /pessoas                    controllers.PessoaController.cadastrarPessoas()
-PUT     /pessoa/:id                 controllers.PessoaController.atualizar(id: Long)
-DELETE  /pessoa/:id                 controllers.PessoaController.deletar(id: Long)
+
+#teste capturando dados do application.conf
+GET     /teste1                     controllers.TesteController.teste1()
+GET     /teste2                      controllers.TesteController.teste2()
+GET     /teste3                      controllers.TesteController.teste3()
+GET     /teste4                      controllers.TesteController.teste4()
+GET     /teste5                      controllers.TesteController.teste5()
+GET     /teste6                      controllers.TesteController.teste6()
+GET     /teste7                      controllers.TesteController.teste7()
+GET     /teste8                      controllers.TesteController.teste8()
+GET     /teste9                      controllers.TesteController.teste9()
+GET     /teste10                     controllers.Default.todo
+GET     /teste11                     controllers.TesteController.teste11()
+GET     /teste12                     controllers.TesteController.teste12()
+
 
 
 # Map static resources from the /public folder to the /assets URL path
